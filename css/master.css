@@ -1,0 +1,104 @@
+
+body 
+{
+	background-image: url("../img/background.jpg"); 
+	background-repeat:no-repeat; 
+	background-size: cover; 
+}
+#CenterWrap 
+{
+	width: 900px; 
+	margin: auto;
+}
+#Menu 
+{
+	position: relative; 
+	width: 100%; 
+	background-color: black;
+}
+#Content 
+{
+	width: 100%; 
+	min-height: 400px; 
+	background-color: white;
+}
+#Menu a 
+{
+	position: relative; 
+	margin: 0px 80px 0px 50px; 
+	color: white; 
+	text-decoration: none; 
+	font-size: xx-large;
+}
+#Menu a:hover 
+{
+	color : lightblue; 
+}
+#Menu #NITHLink 
+{ 
+	display: inline-block; 
+	margin: 0px; 
+}
+#Menu #About { margin-right: 30px; }
+
+#StudyList 
+{
+	display: none; 
+	position: absolute; 
+	background-color: black; 
+	width: 200px; 
+	margin: 0px
+}
+#StudyList a 
+{ 
+	display: block;
+	font-size: large; 
+	color: white; 
+	margin: 10px 0px 10px 10px;
+}
+#StudyList p 
+{
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+}
+#BookWrap 
+{
+	position: relative; 
+	display: inline-block; 
+	margin: 0px; 
+}
+#BookWrap:hover > #StudyList 
+{
+	Display: block;
+}
+
+#AboutList 
+{
+	display: none; 
+	position: absolute; 
+	background-color: black; 
+	width: 200px; 
+	margin: 0px
+}
+#AboutList a 
+{
+	display: block;
+	font-size: large; 
+	color: white; 
+	margin: 10px 0px 10px 10px;
+}
+#AboutList p 
+{
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+}
+#AboutWrap 
+{
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+}
+#AboutWrap:hover > #AboutList 
+{
+	Display: block;
+}
