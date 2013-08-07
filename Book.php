@@ -8,7 +8,7 @@
 <?php 
 	parse_str($_SERVER['QUERY_STRING']);
 	  // Create connection
-	  $con=mysqli_connect("127.0.0.1","chrhen12","bilen313","BookDB");
+	  $con=mysqli_connect("mysql1.000webhost.com","a3823700_chrhen1","books123","a3823700_BookDB");
 	  
 	  // Check connection
 	  if (mysqli_connect_errno($con))

@@ -11,4 +11,4 @@
 	Mer tekst kommer her...
 	</div>
 	
-<?php include("masterEnd.php"); ?>
+<?php include("masterEnd.php");?>

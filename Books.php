@@ -7,7 +7,7 @@
 <br/>
 <?php
 	// Create connection
-	$con=mysqli_connect("127.0.0.1","chrhen12","bilen313","BookDB");
+	$con=mysqli_connect("mysql1.000webhost.com","a3823700_chrhen1","books123","a3823700_BookDB");
 	  
 	// Check connection
 	if (mysqli_connect_errno($con))
@@ -26,7 +26,7 @@
 		while ($row = mysqli_fetch_row($result))
 		{
 			echo "<a href = 'Book.php?id=" . $row[0] . "'>";
-			echo "<div style = 'text-align: center; display: inline-block; margin: 40px 70px 50px 70px;'>";
+			echo "<div style = 'text-align: center; display: inline-block; width: 200px; margin: 40px 0px 50px 70px;'>";
 			echo "<img src = '" . $row[4] . "' alt = 'Bilde av boka'><br/>";
 			echo $row[1] . "<br/>";
 			echo "</div>";

@@ -1,5 +1,5 @@
 <?php $head = 
-".study { display: inline-block; width: 350px; margin: 20px 0px 0px 60px; }
+".study { display: inline-block; width: 380px; margin: 20px 0px 0px 60px; }
 .study div { display: inline-block; }
 .study a { display: inline-block; }
 h1 {margin-top : 0px;}";  ?>

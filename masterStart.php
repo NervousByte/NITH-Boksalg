@@ -40,8 +40,8 @@
 				</div>
 				</div>
 				
-				<input id = "tbSearch" style = "height: 25px; width: 140px;" type="text" onkeydown="if (event.keyCode == 13) document.getElementById('btnSearch').click()">
-				<input id = "btnSearch" style = "height: 25px; width: 40px;" type="submit" value="Søk" onclick = "window.location = 'Books.php?search=' + document.getElementById('tbSearch').value;">
+				<input id = "tbSearch" style = "height: 25px; width: 130px; margin: 0px" type="text" onkeydown="if (event.keyCode == 13) document.getElementById('btnSearch').click()">
+				<input id = "btnSearch" style = "height: 25px; width: 40px; margin: 0px;" type="submit" value="Søk" onclick = "window.location = 'Books.php?search=' + document.getElementById('tbSearch').value;">
 				
 			</div>
 			<div id = "content">
